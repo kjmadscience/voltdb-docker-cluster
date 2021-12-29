@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<deployment>
+  <cluster sitesperhost="8"
+           kfactor="1"
+  />
+<snapshot enabled="false"/>
+    <commandlog enabled="false">
+        <frequency/>
+    </commandlog>
+</deployment>
