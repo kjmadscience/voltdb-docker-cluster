@@ -17,7 +17,7 @@ Start VoltDB cluser using docker compose command,
 
 The command will pick the docker-compose.yml automatically from the same or parent context. It can only pick file names with supported filenames: docker-compose.yml, docker-compose.yaml, compose.yml, compose.yaml
 
-you can change configurations in deployment.xml and add container section in docker-compose.yml to create a cluster with desired number of nodes.
+you can change configurations in deployment.xml and add additional container section in docker-compose.yml to create a cluster with desired number of nodes.
  
 Thank You for your interest in VoltDB.
 
