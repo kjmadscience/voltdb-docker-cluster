@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <deployment>
-  <cluster sitesperhost="8"
+  <cluster sitesperhost="12"
            kfactor="1"
   />
 <snapshot enabled="false"/>
