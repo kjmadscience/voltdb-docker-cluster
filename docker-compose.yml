@@ -2,7 +2,7 @@ version: '3'
 
 services:
   voltdb-1:
-    image: kjadeja/cluster:10
+    image: myrepo/cluster:10
     ports:
         - "37080:8080"
         - "21212:21212"
@@ -11,7 +11,7 @@ services:
         "./start-volt-cluster.sh"
         
   voltdb-2:
-    image: kjadeja/cluster:10
+    image: myrepo/cluster:10
     ports:
         - "38080:8080"
         - "31212:21212"
@@ -20,7 +20,7 @@ services:
         "./start-volt-cluster.sh"
         
   voltdb-3:
-    image: kjadeja/cluster:10
+    image: myrepo/cluster:10
     ports:
         - "39080:8080"
         - "32212:21212"
