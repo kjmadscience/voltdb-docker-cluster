@@ -21,4 +21,4 @@ you can change configurations in deployment.xml and add container section in doc
  
 Thank You for your interest in VoltDB.
 
-!(https://github.com/GDIBostonHackathon2018/Pokebook/blob/8651d1157544069a94cf97d3e60facf010f6b190/pokebook/images/Talonflame.png)
+![this is a image](https://github.com/GDIBostonHackathon2018/Pokebook/blob/8651d1157544069a94cf97d3e60facf010f6b190/pokebook/images/Talonflame.png)
