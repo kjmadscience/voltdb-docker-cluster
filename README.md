@@ -1,13 +1,13 @@
 # voltdb-docker-cluster
 ### Tutorial for deploying a VoltDB docker cluster for training and development purposes. 
 
-We need to build a custom image with licence, deployment file and a custom entrypoint script to support VoltDB in a docker only setup.
+We need to build a custom image with license, deployment file and a custom entrypoint script to support VoltDB in a docker only setup.
 
 The Dockerfile is executed using docker build command,
 
 `docker built -t <DOCKER_REPO>:<TAG> .`
 
-*ensure you have placed your specific deployment.xml,licence.xml and the entrypoint script from this repo in the same folder from where you will execute docker build on Dockerfile.*
+*ensure you have placed your specific deployment.xml,license.xml and the entrypoint script from this repo in the same folder from where you will execute docker build on Dockerfile.*
 
 Replace the name of your custom image in docker-compose.yml
 
