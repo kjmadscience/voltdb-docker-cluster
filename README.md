@@ -5,7 +5,7 @@ We need to build a custom image with license, deployment file and a custom entry
 
 The Dockerfile is executed using docker build command,
 
-`docker built -t <DOCKER_REPO>:<TAG> .`
+`docker build -t <DOCKER_REPO>:<TAG> .`
 
 *ensure you have placed your specific deployment.xml,license.xml and the entrypoint script from this repo in the same folder from where you will execute docker build on Dockerfile.*
 
